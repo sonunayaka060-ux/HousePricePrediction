@@ -4,7 +4,7 @@ import joblib
 st.set_page_config(page_title="House Price Prediction",page_icon="🏠",layout="wide")
 
 st.title("🏠 Bengaluru House Price Prediction")
-st.image("C:\sonu nayaka\ML project\project\house.jpg", width=230)
+st.image("https://cdn1.vectorstock.com/i/1000x1000/84/90/house-logo-template-vector-29518490.jpg", width=230)
 
 
 grid = joblib.load('rf_model.joblib')
